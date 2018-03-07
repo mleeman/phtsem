@@ -1,3 +1,14 @@
+pthsem (2.0.8-2~barco9+5) stretch-barco-testing; urgency=medium
+
+  * copyright: remove national coding
+  * control: dev package is arch any
+  * control: add Section
+  * debian: compat to 10
+  * control: add misc:Depends
+  * debian: correct install files
+
+ -- Marc Leeman <marc.leeman@barco.com>  Wed, 07 Mar 2018 12:48:01 +0100
+
 pthsem (2.0.8-2~barco9+4) stretch-barco-testing; urgency=medium
 
   * control: add Section
