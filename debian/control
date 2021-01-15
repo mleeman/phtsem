@@ -2,8 +2,9 @@ Source: pthsem
 Section: libs
 Priority: optional
 Maintainer: Marc Leeman <marc.leeman@gmail.com>
-Build-Depends: debhelper (>= 4.0.0), cdbs
-Standards-Version: 3.6.1
+Uploaders: Marc Leeman <m.leeman@televic.com>
+Build-Depends: debhelper (>= 10),
+Standards-Version: 4.3.0
 
 Package: libpthsem-dev
 Section: libdevel
