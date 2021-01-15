@@ -1,8 +1,8 @@
-pthsem (2.0.8~bpo10+1) buster-backports; urgency=medium
+pthsem (2.0.8~televic10+1) buster-televic-unstable; urgency=medium
 
   * Rebuild for buster-backports.
 
- -- Marc Leeman <m.leeman@televic.com>  Fri, 15 Jan 2021 01:08:48 +0100
+ -- Marc Leeman <m.leeman@televic.com>  Fri, 15 Jan 2021 08:40:58 +0100
 
 pthsem (2.0.8) stable; urgency=medium
 
