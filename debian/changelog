@@ -1,3 +1,9 @@
+pthsem (2.0.8~televic10+2) buster-televic-unstable; urgency=medium
+
+  * debian: lintian, corrext spelling README.Debian
+
+ -- Marc Leeman <m.leeman@televic.com>  Fri, 15 Jan 2021 08:46:32 +0100
+
 pthsem (2.0.8~televic10+1) buster-televic-unstable; urgency=medium
 
   * Rebuild for buster-backports.
