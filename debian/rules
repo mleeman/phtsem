@@ -1,8 +1,7 @@
 #!/usr/bin/make -f
+# -*- makefile -*-
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/autotools.mk
-include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/dpkg/default.mk
 
-DEB_CONFIGURE_EXTRA_FLAGS := \
-   --enable-compat
+%:
+	dh $@

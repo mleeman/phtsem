@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Marc Leeman <marc.leeman@gmail.com>
 Uploaders: Marc Leeman <m.leeman@televic.com>
 Build-Depends: debhelper-compat (= 13),
-                cdbs
 Standards-Version: 3.6.1
 
 Package: libpthsem-dev
