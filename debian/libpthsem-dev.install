@@ -1,7 +1,8 @@
 usr/bin
 usr/include
-usr/lib/*.a
-usr/lib/*.so
-usr/lib/*.la
+usr/lib/*/*.a
+usr/lib/*/*.so
+usr/lib/*/*.la
+usr/lib/*/pkgconfig/pthsem.pc
 usr/share/aclocal
 usr/share/man
