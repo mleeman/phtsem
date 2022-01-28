@@ -1,13 +1,25 @@
-pthsem (2.0.8-1) stable; urgency=low
+pthsem (2.0.8~televic11+1) bullseye-televic-unstable; urgency=medium
 
-  * New upstream release
-  * Include in debian (Closes: Bug#565675)
+  * copyright: remove national coding
+  * control: dev package is arch any
+  * control: add Section
+  * debian: compat to 10
+  * control: add misc:Depends
+  * debian: correct install files
+  * git: ignore *~ files
+  * debian: add m.leeman@televic.com to uploaders
+  * debian: bump to compat 13
+  * debian: use newer debhelper
+  * debian: correct install locations multiarch
+  * debian: make native format
+  * README.Debian: convert to UTF8
+  * debian: lintian old-fsf-address-in-copyright-file
 
- -- Marc Leeman <marc.leeman@gmail.com>  Mon, 01 Mar 2010 12:14:47 +0100
+ -- Marc Leeman <m.leeman@televic.com>  Fri, 28 Jan 2022 11:41:01 +0100
 
 pthsem (2.0.8) unstable; urgency=low
 
-  * Monotonic clock support 
+  * Monotonic clock support
 
  -- Martin Koegler <mkoegler@auto.tuwien.ac.at>  Fri, 02 Oct 2009 08:51:01 +0200
 
@@ -24,7 +36,7 @@ pthsem (2.0.5) unstable; urgency=low
 
  -- Martin Koegler <mkoegler@auto.tuwien.ac.at>  Sun, 13 Nov 2005 17:35:29 +0100
 
-pthsem (2.0.4-1) unstable; urgency=low
+pthsem (2.0.4) unstable; urgency=low
 
   * Initial Release.
 
